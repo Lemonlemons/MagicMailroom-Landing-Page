@@ -1,0 +1,38 @@
+
+.carousel  {
+	margin-bottom: 0px;
+
+	a.carousel-control {
+		color: @textColor;
+		background: transparent;	
+		.border-radius(0px);
+		border: none;
+		font-size: 80px;
+	}	
+
+	.item a {
+		color: @colorBlue;
+	}	
+}
+
+.carousel-caption 
+{
+	position: static;
+	background: transparent;	
+	padding: 0px;
+
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+		font-family: @baseFontFamily;
+	}
+}
+
+.carousel .item > p,
+.carousel-caption p
+{		
+	font-size: @baseFontSize;
+	line-height: @baseLineHeight;
+    text-shadow: none;
+	color: @textColor;
+	text-align: center;
+}

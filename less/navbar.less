@@ -1,0 +1,81 @@
+@import url('variables.less');
+@import url('mixins.less');
+
+@import url('variables.less');
+@import url('mixins.less');
+
+.hero .navbar {
+    margin:0 0 15px;
+    
+    .brand {	    
+        font-family: @baseFontFamily;	    
+	    font-size: @baseFontSize + 4;
+        color: #ffffff;
+        text-shadow: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+	    padding: 0;
+        margin-top: 10px;
+	    margin-left: 0;
+	}
+
+    .nav {
+        float:right;
+        display: inline-block;
+
+        li {
+            margin-left: 15px;
+
+            a {
+                font-family: @baseBoldFont;
+                font-size: @baseFontSize + 1;
+                line-height: @baseLineHeight + 2;
+                color: @textColorGray;
+                text-shadow: none;
+
+                &:hover {
+                    color: #ffffff;
+                    text-shadow: none;
+                }
+
+                &.btn-bordered {
+                    margin-top: 0px;
+                    border: 2px solid @textColorGray;
+                    padding: 4px 10px 4px;
+                    margin: 4px 0px;
+                    background: transparent; 
+                    background-color: transparent;
+                    background-image: none;
+
+                    &:hover {
+                        color: #ffffff;
+                        border: 2px solid #ffffff;
+                    }
+                }
+            }
+        }
+
+        .active {
+            a {
+                color: #ffffff;
+                text-shadow: none;
+                background-color:transparent;
+                .box-shadow(none);
+
+                &:hover {
+                    color: #ffffff;
+                    text-shadow: none;
+                    background-color:transparent;
+                    .box-shadow(none);
+                }
+            }
+        }
+    }
+
+    .navbar-inner {
+        background:transparent;
+        border: none;      
+        .box-shadow(none);  
+        filter: none;
+    }
+}

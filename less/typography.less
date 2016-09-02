@@ -1,0 +1,60 @@
+@import url('variables.less');
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assets/opensans-font/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    src: url('../assets/opensans-font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/opensans-font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../assets/opensans-font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../assets/opensans-font/OpenSans-Regular-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../assets/opensans-font/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    src: url('../assets/opensans-font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/opensans-font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../assets/opensans-font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../assets/opensans-font/OpenSans-Bold-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../assets/opensans-font/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    src: url('../assets/opensans-font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/opensans-font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../assets/opensans-font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../assets/opensans-font/OpenSans-Light-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p, li, a {
+    font-family: @baseFontFamily;    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+p, li {
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+    -webkit-font-smoothing: antialiased;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @baseBoldFont; 
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+h4 {
+    line-height: 29px;
+}
+
+p.center {
+    text-align: center;
+}

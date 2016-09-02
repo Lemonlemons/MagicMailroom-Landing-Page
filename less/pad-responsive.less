@@ -1,0 +1,87 @@
+@media (max-width: 767px) {
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.block .container,
+	.hero .container,
+	.marketing,
+	footer  {
+		padding-right: 20px;
+		padding-left: 20px;		
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.hero {		
+		.navbar-inner {
+			padding-left: 0px;
+			padding-right: 0px;			
+		}
+
+		.navbar .nav li {
+			margin-left: 0px;
+
+			&:first-child {
+				margin-left: -15px;
+			}
+		}
+
+		.marketing {
+			p.call-to-action {
+				a.btn {
+					margin-bottom: 10px;
+				}
+			}
+
+			h1.headline {
+				font-size: 32px;
+				line-height: 46px;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.hero {
+		padding-left: 20px;
+		padding-right: 20px;
+		
+		.navbar-inner,
+		.container {
+			padding-left: 0px;
+			padding-right: 0px;			
+			text-align: center;			
+		}
+
+		.navbar .nav {			
+			margin: 20px auto 0px;
+			float: none;
+
+			li {
+				display: inline;
+			}
+		}
+
+		.brand {
+			float: none;			
+		}
+
+		.marketing {
+			p.call-to-action {
+				a.btn {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
+	.block.maps .map {
+		height: 0px;
+	}
+}		

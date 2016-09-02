@@ -1,0 +1,50 @@
+#logo {
+  font-family: "Pacifico", sans-serif;
+  text-transform: none;
+  font-size: 26px;
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: font-url("./assets/Pacifico.ttf") format("truetype");
+}
+
+.hero {
+  background: url('../img/stars.jpg');
+  background-size: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+#head-link:hover {
+  color: #363e45;
+}
+
+#head-link-bordered:hover {
+  color: #363e45;
+  border: 2px solid #363e45;
+}
+
+#head-link {
+  color: #fff;
+}
+
+#head-link-bordered {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+#prime {
+  background-color: #363e45;
+  border-color: #000;
+  color: #fff;
+}
+
+#prime:hover {
+  background-color: #7a8899;
+  border-color: #000;
+  color: #fff;
+}
+
+#caro-image {
+  width: 80%;
+}
