@@ -48,3 +48,15 @@
 #caro-image {
   height: 350px;
 }
+
+.headline {
+  font-size: 26px;
+}
+
+.block p.headline-caption {
+  font-size: 15px;
+}
+
+.block .alt p.headline-caption {
+  font-size: 15px;
+}

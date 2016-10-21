@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./css/bootstrap-responsive.css" type="text/css">
     <link rel="stylesheet" href="./css/pad.min.css" type="text/css">
+		<link rel="stylesheet" href="./css/pricing.css" type="text/css">
     <link rel="stylesheet" href="./css/custom.css" type="text/css">
 
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+
+		<script src="./js/jquery-1.9.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+		<script src="./js/smooth_scrolling.js"></script>
 </head>
 <body>
     <section class="hero">
@@ -21,6 +26,7 @@
                     <div class="container">
                         <a href="/" id="logo" class="brand">Magic Mailroom</a>
                         <ul class="nav">
+														<li class="active"><a href="#pricing">Pricing</a></li>
                             <li><a id="head-link-bordered" href="http://app.magicmailroom.com/users/sign_in" class="btn btn-bordered">Login</a></li>
                             <li><a id="head-link-bordered" href="http://app.magicmailroom.com/users/sign_up" class="btn btn-bordered">Sign Up</a></li>
                         </ul>
@@ -30,7 +36,7 @@
             <article class="marketing row">
                 <div class="offset2 span8">
                     <h1 id="main-title" class="headline">
-                        Clean up your mailroom, for free!
+                        Clean up your mailroom, get happy residents!
                     </h1>
                     <p class="call-to-action">
                         <a href="http://app.magicmailroom.com/users/sign_in" id="prime" class="btn btn-large btn-primary rounded">Login</a>
@@ -45,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="offset2 span8">
-                    <h4 class="headline">Magic Mailroom is your free delivery notification tool</h4>
+                    <h4 class="headline">Magic Mailroom is your simple and powerful delivery notification tool</h4>
                     <p class="headline-caption">
                       Here is how it works: Add your residents to the magic mailroom by entering their email addresses and apartment numbers.
                       Whenever a package is received by the office, simply enter the room number in our software and press submit.
@@ -93,6 +99,82 @@
             </div>
         </div>
     </section>
+		<section class="block">
+			 <div id="pricing">
+					<div class="container">
+							<div class="row">
+								<div class="offset2 span8">
+                    <h4 class="headline">Pricing</h4>
+                    <p class="headline-caption">
+											Try out us out for free with 10 apartment registrations!
+                    </p>
+								</div>
+								<div class="text-center">
+										<div class="col-md-3 col-sm-6 col-xs-12 float-shadow">
+													<div class="price_table_container">
+															<div class="price_table_heading">Free</div>
+															<div class="price_table_body">
+																	<div class="price_table_row cost dark-bg"><strong>$ 0</strong><span>/MONTH</span></div>
+																	<div class="price_table_row">Maximum 10 Apartments</div>
+																	<div class="price_table_row">Limited Dashboard and Analytics</div>
+																	<div class="price_table_row">Limited Deliveries</div>
+																	<div class="price_table_row">9 - 5 Central Time Support</div>
+																	<div class="price_table_row">No Record Backup</div>
+															</div>
+															<a href="http://app.magicmailroom.com/users/sign_up" class="btn btn-lg btn-dark btn-block">Sign Up</a>
+													</div>
+											</div>
+
+											<div class="col-md-3 col-sm-6 col-xs-12 float-shadow">
+													<div class="price_table_container">
+															<div class="price_table_heading">Basic</div>
+															<div class="price_table_body">
+																	<div class="price_table_row cost blue-bg"><strong>$ 49</strong><span>/MONTH</span></div>
+																	<div class="price_table_row">Maximum 400 Apartments</div>
+																	<div class="price_table_row">Full Dashboard and Analytics</div>
+																	<div class="price_table_row">Unlimited Deliveries</div>
+																	<div class="price_table_row">Full Time Support</div>
+																	<div class="price_table_row">Free Record Backup</div>
+															</div>
+															<a href="http://app.magicmailroom.com/users/sign_up" class="btn btn-blue btn-lg btn-block">Sign Up</a>
+													</div>
+											</div>
+
+											<div class="col-md-3 col-sm-6 col-xs-12 float-shadow">
+													<div class="recommended"><strong><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> RECOMMENDED</strong></div>
+													<div class="price_table_container">
+															<div class="price_table_heading">Premium</div>
+															<div class="price_table_body">
+																	<div class="price_table_row cost royal-bg"><strong>$ 79</strong><span>/MONTH</span></div>
+																	<div class="price_table_row">Maximum 700 Apartments</div>
+																	<div class="price_table_row">Full Dashboard and Analytics</div>
+																	<div class="price_table_row">Unlimited Deliveries</div>
+																	<div class="price_table_row">Full Time Support</div>
+																	<div class="price_table_row">Free Record Backup</div>
+															</div>
+															<a href="http://app.magicmailroom.com/users/sign_up" class="btn btn-royal btn-lg btn-block">Sign Up</a>
+													</div>
+											</div>
+
+											<div class="col-md-3 col-sm-6 col-xs-12 float-shadow">
+													<div class="price_table_container">
+															<div class="price_table_heading">Enterprise</div>
+															<div class="price_table_body">
+																	<div class="price_table_row cost static-bg"><strong>$ 99</strong><span>/MONTH</span></div>
+																	<div class="price_table_row">Unlimited Apartments</div>
+																	<div class="price_table_row">Full Dashboard and Analytics</div>
+																	<div class="price_table_row">Unlimited Deliveries</div>
+																	<div class="price_table_row">Full Time Support</div>
+																	<div class="price_table_row">Free Record Backup</div>
+															</div>
+															<a href="http://app.magicmailroom.com/users/sign_up" class="btn btn-static btn-lg btn-block">Sign Up</a>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
+		</section>
     <section class="block">
         <div class="container">
             <div class="row">
@@ -119,7 +201,7 @@
                 <div class="offset2 span8">
                     <h4 class="headline">Magic Mailroom Dashboard</h4>
                     <p class="headline-caption">
-											Our Dashboard provides your staff with free data analytics and tracking. Info such as:
+											Our Dashboard provides your staff with complementary data analytics and tracking. Info such as:
 											<ol>
 												<li>Who receives the most deliveries in your building</li>
 												<li>Which of the staff sends the most delivery notifications</li>
@@ -127,7 +209,7 @@
 												<li>And much more!</li>
 											</ol>
                     </p>
-                    <img src="./img/dashboard_page.png" id="hide-image" class="highlight" alt="placeholder" />
+                    <img src="./img/imac_dashboard.png" class="highlight" alt="placeholder" />
                 </div>
             </div>
         </div>
@@ -139,7 +221,7 @@
                     <h4 class="headline">Magic Mailroom will work for your apartment building too!</h4>
                     <p class="headline-caption">
                       It's our goal that Magic Mailroom is implemented by apartment buildings and other housing companies all around the world.
-                      I mean after all, who wants to have to pay to simply send an email? Join today and start using our free service!
+                      I mean after all, who wants a crowded mailroom and cranky residents? Join today and start using our service!
                     </p>
                 </div>
             </div>
@@ -191,8 +273,6 @@
             </a>
         </div>
     </footer>
-    <script src="./js/jquery-1.9.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
     <script type="text/javascript">
 				function initMap() {
 	        var mapDiv = document.getElementById('map');
